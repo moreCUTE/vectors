@@ -34,7 +34,7 @@ for (int i = 0; i < 5; i++)
 cout << friends[i] << endl;
 
 for (int i = 0; i < 5; i++)
-if (friends[i] == "god")
+if (friends[i] == "alejandro")
 HasCoolFriend = true;
 
 for (int i = 0; i < 5; ++i)
@@ -47,6 +47,6 @@ cout << "Find god" << endl;
 
 friendsi = find(friends.begin(), friends.end(), "god");
 if (friendsi != friends.end())
-cout << "you foiudn allah" << endl;
-else cout << "allah not found" << endl;
+cout << "you foiudn ale" << endl;
+else cout << "ale not found" << endl;
 }
